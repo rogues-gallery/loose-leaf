@@ -1,6 +1,8 @@
 ## Overview
 
-Loose Leaf is a notes app for iPad created by [Adam Wulf](http://welcome.totheinter.net). Learn more and see demo videos at [https://getlooseleaf.com](https://getlooseleaf.com). Support this project and [download the app on the App Store](https://itunes.apple.com/us/app/loose-leaf/id625659452?mt=8&uo=4&at=10lNUI).
+Loose Leaf is a notes app for iPad created by [Adam Wulf](https://adamwulf.me). Learn more and see demo videos at [https://getlooseleaf.com](https://getlooseleaf.com). Support this project and [download the app on the App Store](https://itunes.apple.com/us/app/loose-leaf/id625659452?mt=8&uo=4&at=10lNUI).
+
+Enjoy the app? Buy me a coffee ☕️ and [become a sponsor](https://github.com/sponsors/adamwulf)!
 
 ## Unique Gestures
 
@@ -37,7 +39,7 @@ cd loose-leaf
 git submodule update --recursive --init
 ```
 
-Next, you'll need to add your own client ids and secrets for Fabric, Twitter, Facebook, Pinterest, Imgur, and Mixpanel. All of these are stored in a file called AppIds.plist. To get this file setup, copy from the template file:
+Next, you'll need to add your own client ids and secrets for MS App Center, Twitter, Facebook, Pinterest, Imgur, and Mixpanel. All of these are stored in a file called AppIds.plist. To get this file setup, copy from the template file:
 
 ```
 cp Project/LooseLeaf/AppIds-Template.plist Project/LooseLeaf/AppIds.plist
@@ -97,3 +99,4 @@ The Loose Leaf app and sample code are provided under the MIT License. Attributi
 ## Support This Project
 - Download [Loose Leaf](https://itunes.apple.com/us/app/loose-leaf/id625659452?mt=8&uo=4&at=10lNUI)
 - Follow [@adamwulf](http://twitter.com/adamwulf)
+- Become a [Github Sponsor](https://github.com/sponsors/adamwulf)

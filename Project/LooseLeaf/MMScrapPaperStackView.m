@@ -1209,7 +1209,7 @@
             // delete the scrap after resetting its anchor point
             // so that the delete animation is guaranteed to remove
             // the entire scrap from the screen before [removeFromSuperview]
-            [deleteScrapSidebar deleteView:scrap];
+            [deleteScrapSidebar deleteView:scrap onComplete:nil];
         }
 
         // if our delete sidebar was visible, then we need
@@ -2051,10 +2051,6 @@
     [[self.visibleStackHolder peekSubview] exportVisiblePageToPDF:completionBlock];
 }
 
-- (NSDictionary*)cloudKitSenderInfo {
-    return [[self.visibleStackHolder peekSubview] cloudKitSenderInfo];
-}
-
 - (void)mayShare:(MMAbstractShareItem*)shareItem {
     // noop
 }
@@ -2064,10 +2060,6 @@
 }
 
 - (void)didShare:(MMAbstractShareItem*)shareItem {
-    // noop
-}
-
-- (void)didShare:(MMAbstractShareItem*)shareItem toUser:(CKRecordID*)userId fromButton:(MMAvatarButton*)avatarButton {
     // noop
 }
 
